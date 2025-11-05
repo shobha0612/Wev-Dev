@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+    background-color: bisque;
+}
+.whole-wrap {
+    display: flex;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+}
+.identity-content{
+    justify-content: start;
+    align-items: flex-start;
+}
+.identity-media{
+    align-items: flex-end;
+    display: flex;
+    background-color: rgb(209, 47, 47);
+}
+.sIcon{
+    align-items: flex-end;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.facebook{
+    fill: blue;
+}
+.linkedin{
+    fill: blue;
+}

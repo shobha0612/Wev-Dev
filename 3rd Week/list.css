@@ -1,0 +1,41 @@
+svg{
+color: blue
+}
+.sIcon{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.facebook{
+    fill: blue;
+}
+.insta{
+    fill: pink;
+}
+.linkedin{
+    fill: blue;
+}
+.social-link:hover{
+    opacity:0.5;
+    fill: black;
+}
+.social-link:hover svg{
+    fill: black;
+}
+.breathe-section{
+    background-image:url('../images/Joy.webp');
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;          /*x repeate and y no reapet*/
+    background-size: cover;
+    background-position: top center;
+
+}
+.breathe-section2{
+    background-attachment: fixed;
+}
+.spacer{
+    background-color: palevioletred;
+    height: 1000px;
+    width: 100%;
+}

@@ -9,7 +9,6 @@ body{
     background-color: rgb(32, 218, 206);
     padding: 20px;
 }
-
 .identity{
     display: flex;
     background-color: peachpuff;
@@ -27,7 +26,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
 .icon {
     display: flex;
     gap: 15px;

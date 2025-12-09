@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 218, 206);
+    padding: 20px;
+}
+
+/* Form styling */
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffe0b2;
+    border-radius: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #20dacb;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1ab3a7;
+}
+
+/* ID Card */
+.identity {
+    display: flex;
+    background-color: peachpuff;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.wrap-identity-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.identity-media {
+    width: 80%;
+}
+
+.identity-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.Facebook{
+    color: blue;
+}
+
+.Linkedin{
+    color: blue;
+}
+
+.Instagram{
+    color: palevioletred;
+}
